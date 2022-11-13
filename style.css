@@ -5,20 +5,21 @@
 */
 
 @font-face {
-    font-family: 'ktf-jermilov';
-    src: url('KTFJermilov-Solid.ttf');
+    font-family: 'RussoOne-Regular';
+    src: url('fonts/RussoOne-Regular.ttf');
 }
 
 body {
+    background-color: yellow;
+    font-family: 'RussoOne-Regular';
     margin: 0;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;    
 }
 
 .header {
-    background-color: yellow;
-    width: 100%;
-    font-family: 'ktf-jermilov';
+    width: auto;
     padding: 36px;
     display: flex;
     flex-wrap: wrap;
@@ -26,7 +27,7 @@ body {
 }
 
 .brand {
-    font-size: 3.2vw;
+    font-size: 5.2vh;
 }
 
 .reversed-text {
@@ -36,5 +37,10 @@ body {
 }
 
 .phones {
-    font-size: 1.6vw;
+    font-size: 2.6vh;
+}
+
+.work-list {
+    list-style-type: square;
+    font-size: 1.8vh;
 }
